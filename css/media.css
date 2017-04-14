@@ -1,0 +1,21 @@
+		@charset "utf-8";
+		/* CSS Document */
+
+		@media screen and (max-width:980px){
+		.wrap{width:96%;}
+		article{width:61%;padding:3.5%;}
+		aside{width:24%;}
+		}
+		@media screen and (max-width:640px){
+			nav{position:relative;}
+			.pcnac{display:none;}
+			.mobilennav{display:block;}
+			nav form{position:absolute;top:-40px;right:0px;}
+			nav form input{width:61px;transition:all 1s;}
+			nav form input:focus{width:130px;}
+			article{width:auto;float:none;}
+			aside{width:auto;mrgin-top:27px;float:none;}
+		}
+		@media screen and (max-width:480px){
+				aside{display:none;}
+			}
